@@ -13,3 +13,5 @@
 * `11_medium` - **Solve Linear Equations using Jacobi Method**
 * `12_hard` - **Singular Value Decomposition (SVD) of 2x2 Matrix**
 * `13_hard` - **Determinant of a 4x4 Matrix using Laplace's Expansion (hard) `(no numpy)`**
+* `27_easy` - **Transformation Matrix from Basis B to C**
+* `28_hard` - **SVD of a 2x2 Matrix**

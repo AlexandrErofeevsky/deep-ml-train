@@ -9,3 +9,5 @@
 * `19_medium` - **Principal Component Analysis (PCA) Implementation**
 * `20_hard` - **Decision Tree Learning `(no numpy)`**
 * `21_hard` - **Pegasos Kernel SVM Implementation**
+* `29_easy` - **Random Shuffle of Dataset**
+* `30_easy` - **Batch Iterator for Dataset**
