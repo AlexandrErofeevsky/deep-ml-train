@@ -15,3 +15,8 @@
 * `13_hard` - **Determinant of a 4x4 Matrix using Laplace's Expansion (hard) `(no numpy)`**
 * `27_easy` - **Transformation Matrix from Basis B to C**
 * `28_hard` - **SVD of a 2x2 Matrix**
+* `35_easy` - **Convert Vector to Diagonal Matrix**
+* `37_medium` - **Calculate Correlation Matrix**
+* `48_medium` - **Implement Reduced Row Echelon Form (RREF) Function**
+* `68_medium` - ****
+* `83_easy` - **Dot Product Calculator**
