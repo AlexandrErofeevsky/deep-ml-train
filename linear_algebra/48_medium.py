@@ -92,14 +92,3 @@ def rref(matrix):
             row -= matrix[row_idx] * row[idx_col]
 
     return matrix
-
-
-import numpy as np
-
-matrix = np.array([
-        [1, 2, -1],
-        [2, 4, -1],
-        [-2, -4, -3]])
-
-output = rref(matrix)
-print(output)

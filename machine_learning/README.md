@@ -22,4 +22,6 @@
 * `46_easy` - **Implement Precision Metric**
 * `47_medium` - **Implement Gradient Descent Variants with MSE Loss**
 * `50_medium` - **Implement Lasso Regression using ISTA**
-* `50_medium` - **Implement Recall Metric in Binary Classification**
+* `52_medium` - **Implement Recall Metric in Binary Classification**
+* `61_easy` - **Implement F-Score Calculation for Binary Classification**
+* `64_easy` - **Implement Gini Impurity Calculation for a Set of Classes**

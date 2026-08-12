@@ -18,5 +18,12 @@
 * `35_easy` - **Convert Vector to Diagonal Matrix**
 * `37_medium` - **Calculate Correlation Matrix**
 * `48_medium` - **Implement Reduced Row Echelon Form (RREF) Function**
-* `68_medium` - ****
+* `55_medium` - **2D Translation Matrix Implementation**
+* `57_medium` - **Gauss-Seidel Method for Solving Linear Systems**
+* `58_medium` - **Gaussian Elimination for Solving Linear Systems**
+* `63_hard` - **Implement the Conjugate Gradient Method for Solving Linear Systems**
+* `65_easy` - **Implement Compressed Row Sparse Matrix (CSR) Format Conversion**
+* `66_easy` - **Implement Orthogonal Projection of a Vector onto a Line**
+* `67_easy` - **Implement Compressed Column Sparse Matrix Format (CSC)**
+* `68_medium` - **Find the column space of a matrix**
 * `83_easy` - **Dot Product Calculator**

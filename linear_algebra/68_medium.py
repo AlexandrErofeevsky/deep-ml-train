@@ -30,3 +30,35 @@ Reasoning:
     The column space is spanned by the first two column vectors [1, 4, 7] and [2, 5, 8].
     The output matrix contains these two independent columns.
 """
+
+
+import numpy as np
+
+
+def matrix_image(A):
+    pivot_cols = []
+
+    matrix = np.array(A, dtype=float)
+    row = 0
+    m, n = A.shape
+
+    for col in range(n):
+        pivot = np.argmax(np.abs(matrix[row:, col])) + row if row < m else None
+        if pivot is None or abs(matrix[pivot, col]) < 1e-10:
+            continue
+
+        if pivot != row:
+            matrix[[row, pivot]] = matrix[[pivot, row]]
+
+        matrix[row] = matrix[row] / matrix[row, col]
+        for r in range(m):
+            if r != row:
+                matrix[r] -= matrix[r, col] * matrix[row]
+
+        pivot_cols.append(col)
+        row += 1
+
+        if row == m:
+            break
+
+    return A[:, pivot_cols]
